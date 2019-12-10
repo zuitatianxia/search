@@ -22,13 +22,13 @@ class TestSearch:
         #点击返回
         self.search_page.click_back()
 
-    @pytest.mark.parametrize("content", data_with_key("test_search1"))
-    def test_search1(self,content):
-        # #点击显示
-        # self.search_page.click_display()
-        #点击放大镜
-        self.search_page.click_search()
-        #输入文字
-        self.search_page.input_content(content)
-        #点击返回
-        self.search_page.click_back()
+#     @pytest.mark.parametrize("content", data_with_key("test_search1"))
+#     def test_search1(self,content):
+#         # #点击显示
+#         # self.search_page.click_display()
+#         #点击放大镜
+#         self.search_page.click_search()
+#         #输入文字
+#         self.search_page.input_content(content)
+#         #点击返回
+#         self.search_page.click_back()
